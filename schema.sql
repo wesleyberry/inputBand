@@ -1,0 +1,16 @@
+DROP DATABASE IF EXISTS input_db;
+CREATE DATABASE input_db;
+USE input_db;
+
+CREATE TABLE managers(
+	id int NOT NULL AUTO_INCREMENT,
+	username VARCHAR(100) NOT NULL,
+	password VARCHAR(100) NOT NULL,
+	PRIMARY KEY (id)
+);
+CREATE TABLE bands(
+	id int NOT NULL AUTO_INCREMENT,
+	username VARCHAR(100) NOT NULL,
+	password VARCHAR(100) NOT NULL,
+	PRIMARY KEY (id)
+);
